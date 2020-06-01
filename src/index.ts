@@ -1,9 +1,10 @@
 import { createStore } from './store/createStore'
 import { combineStores } from './store/combineStores'
 import { getStore } from './store/getStore'
+import { Store, OpticStore } from './types/storeTypes'
 
 interface Frostwork {
-    readonly createStore: () => void
+    readonly createStore: (obj: Store) => OpticStore
     readonly combineStores: () => void
     readonly getStore: () => void
 }
