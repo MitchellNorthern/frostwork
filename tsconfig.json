@@ -1,12 +1,13 @@
 {
     "compilerOptions": {
+        "target": "ES6",
+        "strict": true,
         "module": "CommonJS",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "sourceMap": true
+        "sourceMap": true,
+        "outDir": "dist"
     },
-    "files": [
-        "index.ts"
-    ]
+    "files": ["src/index.ts", "test/test.ts"]
 }
