@@ -1,4 +1,4 @@
-import { Store, OpticStore, NotObject } from '../types/storeTypes'
+import { Store, OpticStore } from '../types/storeTypes'
 import { createLens } from '../util/lensUtils'
 /**
  * Creates a new store with 1 level of depth out of an object.
@@ -16,7 +16,7 @@ export function createStore(obj: Store): OpticStore {
     const opticStore: { [key: string]: any } = {}
     Object.keys(obj).forEach((key: string) => {
         const item = obj[key]
-        opticStore[key] = createLens<typeof obj, typeof item>(
+        opticStore[key] = createLens<Store, typeof item>(
             obj => obj[key],
             obj => item => ({ ...obj, item })
         )
