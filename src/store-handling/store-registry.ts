@@ -45,3 +45,14 @@ export const removeRegistryKey = (name: String): boolean => {
     }
     return false
 }
+
+/**
+ * Gets a registry key by its name.
+ *
+ * @param name name of the key to find
+ * @returns key corresponding to the given name
+ */
+export const getRegistryKey = (name: String): Key => {
+    const filteredKeys = registry.filter(key => key.name === name)
+    return filteredKeys && filteredKeys[0]
+}
