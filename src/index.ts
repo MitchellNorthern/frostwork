@@ -1,3 +1,8 @@
-interface Frostwork {}
+import { getStore } from './store-handling/stores-map'
+import { createStore, createTempStore } from './stores/create-store'
 
-export default Frostwork
+export const Frostwork = {
+    getStore,
+    createStore,
+    createTempStore
+}
