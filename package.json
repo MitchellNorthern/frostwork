@@ -1,21 +1,21 @@
 {
-  "name": "frostwork",
-  "version": "0.0.1",
-  "description": "WIP State Management library",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MitchellNorthern/frostwork.git"
-  },
-  "keywords": [
-    "state"
-  ],
-  "author": "Mitchell Northern",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MitchellNorthern/frostwork/issues"
-  },
-  "homepage": "https://github.com/MitchellNorthern/frostwork#readme",
-  "dependencies": {
-    "typescript": "^3.9.3"
-  }
+    "name": "frostwork",
+    "version": "0.0.1",
+    "description": "WIP State Management library",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MitchellNorthern/frostwork.git"
+    },
+    "keywords": [
+        "state"
+    ],
+    "author": "Mitchell Northern",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MitchellNorthern/frostwork/issues"
+    },
+    "homepage": "https://github.com/MitchellNorthern/frostwork#readme",
+    "devDependencies": {
+        "typescript": "^4.5.2"
+    }
 }

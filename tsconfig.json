@@ -9,5 +9,5 @@
         "sourceMap": true,
         "outDir": "dist"
     },
-    "files": ["src/index.ts", "test/test.ts"]
+    "files": ["src/index.ts"]
 }
